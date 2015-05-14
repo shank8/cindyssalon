@@ -1,0 +1,262 @@
+/***********************
+ Augmenting Classes
+***********************/
+.float-r {
+    float: right; }
+
+.float-l {
+    float: left; }
+
+.h-100 {
+    height: 100px; }
+
+.h-200 {
+    height: 200px; }
+
+.h-300 {
+    height: 300px; }
+
+.m-5 {
+    margin: 5px; }
+
+.mt-5 {
+    margin-top: 5px; }
+
+.mb-5 {
+    margin-bottom: 5px; }
+
+.ml-5 {
+    margin-left: 5px; }
+
+.mr-5 {
+    margin-right: 5px; }
+
+.m-15 {
+    margin: 15px; }
+
+.mt-15 {
+    margin-top: 15px; }
+
+.mb-15 {
+    margin-bottom: 15px; }
+
+.ml-15 {
+    margin-left: 15px; }
+
+.mr-15 {
+    margin-right: 15px; }
+
+.m-10 {
+    margin: 10px; }
+
+.mt-10 {
+    margin-top: 10px; }
+
+.mb-10 {
+    margin-bottom: 10px; }
+
+.ml-10 {
+    margin-left: 10px; }
+
+.mr-10 {
+    margin-right: 10px; }
+
+.m-25 {
+    margin: 25px; }
+
+.mt-25 {
+    margin-top: 25px; }
+
+.mb-25 {
+    margin-bottom: 25px; }
+
+.ml-25 {
+    margin-left: 25px; }
+
+.mr-25 {
+    margin-right: 25px; }
+
+.m-40 {
+    margin: 40px; }
+
+.mt-40 {
+    margin-top: 40px; }
+
+.mb-40 {
+    margin-bottom: 40px; }
+
+.ml-40 {
+    margin-left: 40px; }
+
+.mr-40 {
+    margin-right: 40px; }
+
+.p-0 {
+    padding: 0 !important; }
+
+.p-5 {
+    padding: 5px; }
+
+.p-10 {
+    padding: 10px; }
+
+.p-15 {
+    padding: 15px; }
+
+.p-25 {
+    padding: 25px; }
+
+.p-30 {
+    padding: 30px; }
+
+.p-40 {
+    padding: 40px; }
+
+.pt-10 {
+    padding-top: 10px; }
+
+.pb-10 {
+    padding-bottom: 10px; }
+
+.pl-10 {
+    padding-left: 10px; }
+
+.pr-10 {
+    padding-right: 10px; }
+
+.pt-15 {
+    padding-top: 15px; }
+
+.pb-15 {
+    padding-bottom: 15px; }
+
+.pl-15 {
+    padding-left: 15px; }
+
+.pr-15 {
+    padding-right: 15px; }
+
+.pt-25 {
+    padding-top: 25px; }
+
+.pb-25 {
+    padding-bottom: 25px; }
+
+.pl-25 {
+    padding-left: 25px; }
+
+.pr-25 {
+    padding-right: 25px; }
+
+.pt-40 {
+    padding-top: 40px; }
+
+.pb-40 {
+    padding-bottom: 40px; }
+
+.pl-40 {
+    padding-left: 40px; }
+
+.pr-40 {
+    padding-right: 40px; }
+
+.tAlign-c {
+    text-align: center !important; }
+
+.tAlign-l {
+    text-align: left !important; }
+
+.tAlign-r {
+    text-align: right !important; }
+
+.fSize-14 {
+    font-size: 14px; }
+
+.fSize-16 {
+    font-size: 16px; }
+
+.fSize-20 {
+    font-size: 20px; }
+
+.fSize-24 {
+    font-size: 24px; }
+
+.fSize-26 {
+    font-size: 26px;
+    line-height: 26px; }
+
+.fSize-28 {
+    font-size: 28px;
+    line-height: 28px; }
+
+.fSize-38 {
+    font-size: 38px;
+    line-height: 38px; }
+
+.fSize-48 {
+    font-size: 48px;
+    line-height: 48px; }
+
+.fColor-blue {
+    color: #0171fb !important; }
+
+.fColor-dblue {
+    color: #144570 !important; }
+
+.fColor-ltgrey {
+    color: #aaa; }
+
+.fColor-grey {
+    color: #999 !important; }
+
+.fColor-dgrey {
+    color: #555 !important; }
+
+.bold {
+    font-weight: bold; }
+
+.border {
+    border: 1px solid #ccc; }
+.border.lt {
+    border: 1px solid #e8e8e8; }
+
+.borderB {
+    border-bottom: 1px solid #ccc; }
+.borderB.lt {
+    border-bottom: 1px solid #e8e8e8; }
+
+.borderT {
+    border-top: 1px solid #ccc; }
+.borderT.lt {
+    border-top: 1px solid #e8e8e8; }
+
+.borderL {
+    border-left: 1px solid #ccc; }
+.borderL.lt {
+    border-left: 1px solid #e8e8e8; }
+
+.borderR {
+    border-right: 1px solid #ccc; }
+.borderR.lt {
+    border-right: 1px solid #e8e8e8; }
+
+.borderBox {
+    box-sizing: border-box; }
+
+.hover:hover {
+    background: #ecf6ff;
+    cursor: pointer; }
+
+.vCenter-wrap {
+    position: relative; }
+
+.superCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.vCenter {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); }

@@ -3,6 +3,7 @@
 		<title>Cindy's Salon - Duvall, Wa</title>
 		<base href="/public"/>
 		<link href='https://fonts.googleapis.com/css?family=Dosis:400,700|Wire+One' rel='stylesheet' type='text/css'>
+		<link href="/css/main.css" rel="stylesheet" type="text/css" />
 		<style>
 
 			html body {
@@ -17,6 +18,10 @@
 				font-weight:500;
 				margin:0;
 				color:#222;
+			}
+
+			p {
+				text-align:justify;
 			}
 
 			.container {
@@ -114,6 +119,7 @@
 				<ul class="clearfix">
 					<li><a ui-sref="home" ui-sref-active="active">Home</a></li>
 					<li><a ui-sref="salon" ui-sref-active="active">The Salon</a></li>
+					<li><a ui-sref="portfolio" ui-sref-active="active">Portfolio</a></li>
 					<li><a ui-sref="contact" ui-sref-active="active">Contact</a></li>
 					<li><a ui-sref="about" ui-sref-active="active">About</a></li>
 				</ul>
@@ -153,6 +159,10 @@
 					url:'/salon',
 					templateUrl:'/partials/salon.html',
 					controller:'SalonController'
+				}).state('portfolio', {
+					url:'/portfolio',
+					templateUrl:'/partials/portfolio.html',
+					controller:'PortfolioController'
 				}).state('contact', {
 					url:'/contact',
 					templateUrl:'/partials/contact.html',
@@ -178,6 +188,10 @@
 			})
 
 			.controller('SalonController', function($scope){
+
+			})
+
+			.controller('PortfolioController', function($scope){
 
 			})
 
